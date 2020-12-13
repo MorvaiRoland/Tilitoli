@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:TiliToli"
         mc:Ignorable="d"
         Title="TiliToli" Height="500" Width="340"
-        Name ="Jatek">
+        Name ="Jatek" Icon="Tilli-Toli_1.png">
     <Grid>
         <Grid.Background>
             <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
