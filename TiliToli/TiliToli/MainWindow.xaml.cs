@@ -51,7 +51,7 @@ namespace TiliToli
 
                 if (allas.SequenceEqual(kesz))
                 {
-                    MessageBox.Show("Ügyes vagy! ");
+                    MessageBox.Show("Ügyes vagy!");
                 }
                 
             }

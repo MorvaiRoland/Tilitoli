@@ -14,16 +14,16 @@
                 <GradientStop Color="#FFA20000" Offset="1"/>
             </LinearGradientBrush>
         </Grid.Background>
-        <Button Content="1" Name="Button1" HorizontalAlignment="Left" Margin="15,70,0,0" VerticalAlignment="Top" Width="100" Height="100" FontSize="48" Click="Button1_Click"/>
-        <Button Content="2" Name="Button2" HorizontalAlignment="Left" Margin="115,70,0,0" VerticalAlignment="Top" Width="100" Height="100" FontSize="48" Click="Button1_Click"/>
-        <Button Content="3" x:Name="Button3" HorizontalAlignment="Left" Margin="215,70,0,0" VerticalAlignment="Top" Width="100" Height="100" FontSize="48" Click="Button1_Click"/>
-        <Button Content="4" x:Name="Button4" HorizontalAlignment="Left" Margin="15,170,0,0" VerticalAlignment="Top" Width="100" Height="100" FontSize="48" Click="Button1_Click"/>
-        <Button Content="5" x:Name="Button5" HorizontalAlignment="Left" Margin="115,170,0,0" VerticalAlignment="Top" Width="100" Height="100" FontSize="48" Click="Button1_Click"/>
-        <Button Content="6" x:Name="Button6" HorizontalAlignment="Left" Margin="215,170,0,0" VerticalAlignment="Top" Width="100" Height="100" FontSize="48" Click="Button1_Click"/>
-        <Button Content="7" x:Name="Button7" HorizontalAlignment="Left" Margin="15,270,0,0" VerticalAlignment="Top" Width="100" Height="100" FontSize="48" Click="Button1_Click"/>
-        <Button Content="8" x:Name="Button8" HorizontalAlignment="Left" Margin="115,270,0,0" VerticalAlignment="Top" Width="100" Height="100" FontSize="48" Click="Button1_Click"/>
+        <Button Content="1" Name="Button1" HorizontalAlignment="Left" Margin="15,70,0,0" VerticalAlignment="Top" Width="100" Height="100" FontSize="48" Click="Button1_Click" Background="#FF6C6B6B" Foreground="White"/>
+        <Button Content="2" Name="Button2" HorizontalAlignment="Left" Margin="115,70,0,0" VerticalAlignment="Top" Width="100" Height="100" FontSize="48" Click="Button1_Click" Background="#FF6C6B6B" Foreground="White"/>
+        <Button Content="3" x:Name="Button3" HorizontalAlignment="Left" Margin="215,70,0,0" VerticalAlignment="Top" Width="100" Height="100" FontSize="48" Click="Button1_Click" Background="#FF6C6B6B" Foreground="White"/>
+        <Button Content="4" x:Name="Button4" HorizontalAlignment="Left" Margin="15,170,0,0" VerticalAlignment="Top" Width="100" Height="100" FontSize="48" Click="Button1_Click" Background="#FF6C6B6B" Foreground="White"/>
+        <Button Content="5" x:Name="Button5" HorizontalAlignment="Left" Margin="115,170,0,0" VerticalAlignment="Top" Width="100" Height="100" FontSize="48" Click="Button1_Click" Background="#FF6C6B6B" Foreground="White"/>
+        <Button Content="6" x:Name="Button6" HorizontalAlignment="Left" Margin="215,170,0,0" VerticalAlignment="Top" Width="100" Height="100" FontSize="48" Click="Button1_Click" Background="#FF6C6B6B" Foreground="White"/>
+        <Button Content="7" x:Name="Button7" HorizontalAlignment="Left" Margin="15,270,0,0" VerticalAlignment="Top" Width="100" Height="100" FontSize="48" Click="Button1_Click" Background="#FF6C6B6B" Foreground="White"/>
+        <Button Content="8" x:Name="Button8" HorizontalAlignment="Left" Margin="115,270,0,0" VerticalAlignment="Top" Width="100" Height="100" FontSize="48" Click="Button1_Click" Background="#FF6C6B6B" Foreground="White"/>
         <Button Content="0" x:Name="Button0" HorizontalAlignment="Left" Margin="215,270,0,0" VerticalAlignment="Top" Width="100" Height="100" FontSize="48" Click="Button1_Click" IsEnabled="False" IsHitTestVisible="False" Visibility="Hidden"/>
-        <Button Content="Új játék" HorizontalAlignment="Left" Margin="115,10,0,0" VerticalAlignment="Top" Width="100" Height="41" Click="Button_Click"/>
+        <Button Content="Új játék" HorizontalAlignment="Left" Margin="115,10,0,0" VerticalAlignment="Top" Width="100" Height="41" Click="Button_Click" Foreground="White" Background="#FF6C6B6B"/>
         <Label x:Name="lepes" Content="" HorizontalAlignment="Left" Height="37" Margin="115,422,0,0" VerticalAlignment="Top" Width="138"/>
 
     </Grid>
