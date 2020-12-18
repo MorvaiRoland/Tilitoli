@@ -26,6 +26,7 @@ namespace TiliToli
         }
         int[] allas = { 1, 2, 3, 4, 5, 6, 7, 8, 0 };
         int[] kesz = { 1, 2, 3, 4, 5, 6, 7, 8, 0 };
+        int lepesek;
         private void Button1_Click(object sender, RoutedEventArgs e)
         {
             Button ezGomb = sender as Button;
@@ -42,7 +43,8 @@ namespace TiliToli
                 var seged = ezGomb.Margin;
                 ezGomb.Margin = nullaGomb.Margin;
                 nullaGomb.Margin = seged;
-
+                lepesek++;
+                lepes.Content = "Lépések száma: " + lepesek;
                 allas[nullaGombIndex] = allas[ezGombFelirat];
                 allas[ezGombFelirat] = 0;
               
@@ -58,7 +60,7 @@ namespace TiliToli
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             Button0.Visibility = Visibility.Hidden;
-            
+            lepesek = 0;
             Random r = new Random();
             for (int i = 0; i < 100; i++)
             {
@@ -82,6 +84,8 @@ namespace TiliToli
                     allas[nullaGombIndex] = seged2;
                     allas[ezGombIndex] = 0;
                 }
+
+              
             }
         }
     }
